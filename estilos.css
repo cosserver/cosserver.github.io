@@ -1,0 +1,234 @@
+@font-face {
+    font-family:BebasNeue-Bold; 
+    src: url('fonts/BebasNeue-Bold.ttf');
+}
+
+@font-face {
+    font-family:BebasNeue-Light; 
+    src: url('fonts/BebasNeue-Light.ttf');
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url('img/195636.png');
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+header{
+    z-index: 9;
+    width:100%;
+    height:85px;
+    background:rgba(242, 242, 242, 95%); 
+    top:0;
+    position: fixed;
+    overflow: hidden;
+    border-bottom:solid;
+    border-bottom-width:6px;
+    border-color: #999999;
+}
+
+
+#title{
+    padding-top: 13px;
+    position: absolute;
+    height: 100%;
+    width: 55%;
+    left: 8%;
+    display: table;}
+
+#title h1{
+    display: inline;
+    position: relative;
+    color:#000;
+    font-family:'BebasNeue-Bold';
+    font-size: 50px;
+}
+
+#title h2{
+    top:0px;
+    display: inline;
+    position: relative;
+    font-family:'BebasNeue-Light';
+    color:#000;
+    font-size: 35px;
+}
+
+.logo{
+    display: inline;
+    position: relative;
+    left:8px;
+    width:auto;
+    height:auto;
+}
+
+.logo img{
+    width:45px;
+    height:auto;
+}
+
+.contenedor-imagenes{
+    display:flex;
+    width: 85%;
+    height: auto;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius:3px;
+}
+
+.contenedor-imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height:auto;
+    margin-bottom:15px;
+}
+.imagen img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 22px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 22px;
+    /*background:rgba(0, 118, 192, 0.781) ; */
+    background:rgba(242, 242, 242, 97%); 
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.overlay img{
+    position: relative;
+    float: right;
+    width: 40px;
+    height: auto;
+    top: -20px;
+    right: -20px;
+    margin-bottom: 8px;
+}
+
+.overlay h2{
+    padding-top: 3px;
+    color: #000;
+    font-weight: 300;
+    font-size:30px;
+    position: relative;
+    width: 100%;
+    font-family:'BebasNeue-Bold';
+    border-top: solid;
+    border-top-width:4px;
+    border-bottom:solid;
+    border-bottom-width:4px;
+    border-color: #999999;
+    
+    /*top: 50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%); */
+}
+
+#desc{
+    width:auto;
+    position: relative;
+    font-size:18px;
+}
+
+.video{
+    width:150px;
+    height: 50px;
+    border:solid;
+    border-width:2px;
+    border-color:#000;
+    text-align: center; 
+    text-decoration:none;
+    position: relative;
+}
+
+.video:hover{
+    background-color:#d9d9d9;
+    cursor:pointer;
+}
+
+.video a{
+    text-decoration:none;
+}
+
+.video pre{
+    font-family: 'BebasNeue-Bold';
+    font-size: 40px;
+    color:#000;
+}
+
+.howto{
+    position: relative;
+    float: right;
+}
+
+.howto img{
+    width: 50px;
+    height: auto;
+    top: -55px;
+    right: 5px;
+}
+
+.imagen:hover .overlay{
+    height:100%;
+    cursor: default;
+}
+
+
+footer h2{
+    font-family: 'BebasNeue-Light'; 
+    font-size: 24px;
+    color:#fff;
+}
+
+footer{
+    width:100%;
+    height:100px;
+    background:#262626;
+    bottom:0;
+    position: relative; 
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:1000px; max-height: 800px){
+    .contenedor-imagenes{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:70%){
+    .contenedor-imagenes{
+        width: 90%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:450px){
+    .contenedor-imagenes{
+        width: 98%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 80%;
+    }
+
+
