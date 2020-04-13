@@ -23,7 +23,7 @@ body{
 header{
     z-index: 9;
     width:100%;
-    height:85px;
+    height:75px;
     background:rgba(242, 242, 242, 95%); 
     top:0;
     position: fixed;
@@ -47,7 +47,7 @@ header{
     position: relative;
     color:#000;
     font-family:'BebasNeue-Bold';
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #title h2{
@@ -56,7 +56,7 @@ header{
     position: relative;
     font-family:'BebasNeue-Light';
     color:#000;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .logo{
@@ -68,7 +68,7 @@ header{
 }
 
 .logo img{
-    width:45px;
+    width:35px;
     height:auto;
 }
 
@@ -98,7 +98,7 @@ header{
     position: absolute;
     bottom: 0;
     left: 0;
-    padding-top: 22px;
+    padding-top: 12px;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 22px;
@@ -113,9 +113,9 @@ header{
 .overlay img{
     position: relative;
     float: right;
-    width: 40px;
+    width: 30px;
     height: auto;
-    top: -20px;
+    top: -10px;
     right: -20px;
     margin-bottom: 8px;
 }
@@ -124,7 +124,7 @@ header{
     padding-top: 3px;
     color: #000;
     font-weight: 300;
-    font-size:24px;
+    font-size:25px;
     position: relative;
     width: 100%;
     font-family:'BebasNeue-Bold';
@@ -141,14 +141,16 @@ header{
 }
 
 #desc{
+	top: -5px;
     width:auto;
     position: relative;
-    font-size:18px;
+    font-size:14px;
 }
 
 .video{
-    width:150px;
-    height: 50px;
+	top: -10px;
+    width:140px;
+    height: 42px;
     border:solid;
     border-width:2px;
     border-color:#000;
@@ -168,7 +170,7 @@ header{
 
 .video pre{
     font-family: 'BebasNeue-Bold';
-    font-size: 40px;
+    font-size: 35px;
     color:#000;
 }
 
@@ -178,7 +180,7 @@ header{
 }
 
 .howto img{
-    width: 50px;
+    width: 45px;
     height: auto;
     top: -55px;
     right: 5px;
@@ -192,7 +194,7 @@ header{
 
 footer h2{
     font-family: 'BebasNeue-Light'; 
-    font-size: 24px;
+    font-size: 20px;
     color:#fff;
 }
 
@@ -230,5 +232,3 @@ footer{
     .contenedor-imagenes .imagen{
         width: 80%;
     }
-
-
